@@ -4,3 +4,12 @@ document.getElementById('btn-add-flood-bdt')
 
     dntFloodbdt();
 })
+
+document.getElementById('btn-palestine-donation')
+.addEventListener('click',function(event){
+    event.preventDefault();
+    console.log("hello")
+
+    
+})
+
