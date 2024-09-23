@@ -33,15 +33,15 @@
    
   <div class="mt-5 bg-transparent">
     <div class="flex justify-center space-x-4 ">
-        <button class="btn btn-wide rounded w-40 hover:bg-green-300">Donate</button>
-        <button class="btn btn-wide rounded w-40 hover:bg-green-300">History</button>
+        <button id="btn-donation" class="btn btn-wide rounded w-40 hover:bg-green-300">Donate</button>
+        <button id="btn-history" class="btn btn-wide rounded w-40 hover:bg-green-300">History</button>
     </div>
 </div>
 </div>
 </div>
 
 <main class="mt-8 mb-16 mx-3 space-y-3">
-<div id="donate" class=" space-y-4">
+<div id="donate-section" class=" space-y-4 hidden">
     <div id="flood-donation-bdt" class="card lg:card-side lg:w-1200 lg:mx-20  bg-base-100 shadow-xl p-4">
         
         <figure>
@@ -84,7 +84,7 @@
             
           <h2 class="card-title">Donate for Palestine People, Palestine</h2>
           <p>The recent floods in Noakhali have caused significant damage to homes <br> infrastructure.  Your donation will help provide essential supplies and to <br> those affected by this disaster.  Every contribution, big or small, makes <br> difference.  Please join us in supporting the relief efforts and  making <br> a positive impact on the lives of those in need.</p>
-          <input type="text" placeholder="Type here" class="input  border-gray-200 w-full  rounded" />
+          <input id="add-palestine-money" type="text" placeholder="Type here" class="input  border-gray-200 w-full  rounded" />
           <div class="card-actions justify-end">
             <button id="btn-palestine-donation" class="btn btn-block rounded text-lg">Donate now</button>
           </div>
@@ -95,22 +95,22 @@
         
         <figure>
             
-          <img src="/Donate-bangladesh/assets/noakhali.png" alt="">
+          <img src="/Donate-bangladesh/assets/quota-protest.png" alt="">
         </figure>
 
         <div class="card-body">
             
                 <div class="flex space-x-1 bg-slate-200 w-32 rounded p-2 ">
                     <img src="/Donate-bangladesh/assets/coin.png" alt="">
-                    <div>1000</div>
+                    <div id="quota-balance">1000</div>
                     <div>BDT</div>
                 </div> 
             
-          <h2 class="card-title">Donate for Flood at Noakhali, Bangladesh</h2>
+          <h2 class="card-title">Aid for Injured in the Quota Movement</h2>
           <p>The recent floods in Noakhali have caused significant damage to homes <br> infrastructure.  Your donation will help provide essential supplies and to <br> those affected by this disaster.  Every contribution, big or small, makes <br> difference.  Please join us in supporting the relief efforts and  making <br> a positive impact on the lives of those in need.</p>
-          <input type="text" placeholder="Type here" class="input  border-gray-200 w-full  rounded" />
+          <input id="add-quota money" type="text" placeholder="Type here" class="input  border-gray-200 w-full  rounded" />
           <div class="card-actions justify-end">
-            <button class="btn btn-block rounded text-lg">Donate now</button>
+            <button id="btn-quota-donation" class="btn btn-block rounded text-lg">Donate now</button>
           </div>
         </div>
       </div>
@@ -118,8 +118,11 @@
     </div>
 
 
-    <div>
-        <div></div>
+    <div id="History-section  " class="mx-20 hidden">
+
+        <div id="History-container">
+            
+        </div>
 
     </div>
 
