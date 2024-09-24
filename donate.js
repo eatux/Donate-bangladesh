@@ -10,10 +10,7 @@ document.getElementById('btn-add-flood-bdt')
         dntFloodbdt();	
 	
     }
-    
-   
-    
-   
+     
    
 })
 
@@ -62,6 +59,13 @@ document.getElementById('btn-donation').addEventListener('click',function(){
     document.getElementById('btn-donation').classList.add('bg-green-300')
     document.getElementById('btn-history').classList.remove('bg-green-300')
 
+})
+
+document.getElementById('btn-blog').addEventListener('click',function(){
+    window.location.href='blog.html';
+})
+document.getElementById('btn-home').addEventListener('click',function(){
+    window.location.href='home.html';
 })
 
 
