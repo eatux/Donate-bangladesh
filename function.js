@@ -51,7 +51,7 @@ function dntPalestinebdt(){
 
     const div = document.createElement("div");
 	div.className = "p-5 bg-white collapse space-y-2  mb-5 border bg-base-100";
-	div.innerHTML = `<h1 class="font-bold text-xl">${cPlaestinebdt} TAKA Donate for Palestine People, Palestine </h1>
+	div.innerHTML = `<h1 class="font-bold text-xl">${cAddpalestinebdt} TAKA Donate for Palestine People, Palestine </h1>
     <p>${new Date().toString()} </p>` ;
     document.getElementById('History-container').appendChild(div);
  
@@ -76,7 +76,7 @@ function dntQuotabdt(){
 
     const div = document.createElement("div");
 	div.className = "p-5 bg-white collapse space-y-2  mb-5 border bg-base-100";
-	div.innerHTML = `<h1 class="font-bold text-xl">${cQuotabdt} TAKA Aid for Injured in the Quota Movement </h1>
+	div.innerHTML = `<h1 class="font-bold text-xl">${cAddQuotabdt} TAKA Aid for Injured in the Quota Movement </h1>
     <p>${new Date().toString()} </p>` ;
     document.getElementById('History-container').appendChild(div);
 
